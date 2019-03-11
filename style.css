@@ -1,0 +1,54 @@
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+body{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.topNavBar{
+    margin: 20px 16px 20px 16px;
+}
+.topNavBar>nav>ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.topNavBar>nav>ul>li{
+    float: left;
+    margin: 0 20px 0 20px;
+}
+.topNavBar>nav>ul>li>a{
+    font-size: 14px;
+    color: #BFC1C3;
+    font-weight: bold;
+    border-bottom: 3px solid transparent;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+}
+.topNavBar>nav>ul>li>a:hover{
+    border-bottom: 3px solid #E8676B;
+}
+.topNavBar>a{
+    float: left;
+}
+.topNavBar>nav{
+    float: right;
+    padding-top: 8px;
+}
+.topNavBar .logo{
+    font-size: 30px;
+    font-weight: bold;
+}
+.topNavBar .logo .rs{
+    color: #E8676B;
+    margin-right: 5px;
+
+}
+.topNavBar .logo .card{
+    color: #9A9DA2;
+}
